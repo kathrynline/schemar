@@ -1,10 +1,10 @@
 Package: schemar
-Title: Integrated schema validation through data.table
+Title: Integrated schema validation through data.frame
 Version: 0.0.0.9000
 Authors@R: 
     person("Emily", "Linebarger", , "elineb@uw.edu", role = c("aut", "cre"))
-Description: Easily integrates with data.table to provide schema validation.
-  Validates the types and values available in a data.table's columns, 
+Description: Provides lightweight schema validation in R.
+  Validates the types and values available in a data.frame's columns, 
   as well as asserting that required columns are present. 
 License: MIT + file LICENSE
 Encoding: UTF-8
